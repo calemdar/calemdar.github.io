@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5c65aa59-7a32-48d6-b5c5-14bb0d3ce421" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.min.js" afterPath="$PROJECT_DIR$/js/scripts.min.js" />
       <change beforePath="$PROJECT_DIR$/scss/styles.scss" afterPath="$PROJECT_DIR$/scss/styles.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,23 +29,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="70" column="52" lean-forward="false" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+                <state relative-caret-position="-5">
+                  <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="37" selection-end-column="22" />
                   <folding>
-                    <element signature="e#10324#10330#0" expanded="true" />
+                    <element signature="e#10352#10358#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="emotion-matcher-info.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="emotion-matcher-info.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/emotion-matcher-info.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+                <state relative-caret-position="-513">
+                  <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -110,11 +112,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="650" column="23" lean-forward="false" selection-start-line="650" selection-start-column="23" selection-end-line="650" selection-end-column="23" />
+                <state relative-caret-position="322">
+                  <caret line="1000" column="0" lean-forward="false" selection-start-line="1000" selection-start-column="0" selection-end-line="1000" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -123,8 +125,8 @@
           <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/scripts.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                <state relative-caret-position="281">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -132,7 +134,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blue-thief.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="blue-thief.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blue-thief.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
@@ -166,6 +168,8 @@
       <find>.top</find>
       <find>jQuer</find>
       <find>about</find>
+      <find>linked</find>
+      <find>foot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,11 +185,11 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
-        <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/blue-thief.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/emotion-matcher-info.html" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -241,6 +245,32 @@
               <item name="calemdar.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="scripts.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="calemdar.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calemdar.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calemdar.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calemdar.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calemdar.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calemdar.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calemdar.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calemdar.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome.css" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -386,12 +416,12 @@
       <workItem from="1546594271891" duration="9054000" />
       <workItem from="1547156018019" duration="5447000" />
       <workItem from="1547174418395" duration="2384000" />
-      <workItem from="1547176816103" duration="2654000" />
+      <workItem from="1547176816103" duration="4205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25630000" />
+    <option name="totallyTimeSpent" value="27181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
@@ -464,19 +494,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/project.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="662" lean-forward="false" selection-start-line="11" selection-start-column="662" selection-end-line="11" selection-end-column="662" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -490,7 +507,7 @@
         <state relative-caret-position="2340">
           <caret line="156" column="44" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
           <folding>
-            <element signature="e#10324#10330#0" expanded="true" />
+            <element signature="e#10352#10358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,7 +604,7 @@
         <state relative-caret-position="3645">
           <caret line="243" column="71" lean-forward="false" selection-start-line="243" selection-start-column="71" selection-end-line="243" selection-end-column="71" />
           <folding>
-            <element signature="e#10324#10330#0" expanded="true" />
+            <element signature="e#10352#10358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -676,7 +693,7 @@
         <state relative-caret-position="1275">
           <caret line="85" column="23" lean-forward="false" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding>
-            <element signature="e#10324#10330#0" expanded="true" />
+            <element signature="e#10352#10358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,7 +729,7 @@
         <state relative-caret-position="2415">
           <caret line="161" column="68" lean-forward="true" selection-start-line="161" selection-start-column="68" selection-end-line="161" selection-end-column="68" />
           <folding>
-            <element signature="e#10324#10330#0" expanded="true" />
+            <element signature="e#10352#10358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,10 +805,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/blueThief/index.html" />
     <entry file="file://$PROJECT_DIR$/pages/blueThief/blue-thief.html" />
+    <entry file="file://$PROJECT_DIR$/emotion-matcher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emotion-matcher-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="803" column="10" lean-forward="false" selection-start-line="803" selection-start-column="4" selection-end-line="803" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="1000" column="0" lean-forward="false" selection-start-line="1000" selection-start-column="0" selection-end-line="1000" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -808,35 +865,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="70" column="52" lean-forward="false" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+        <state relative-caret-position="-5">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="37" selection-end-column="22" />
           <folding>
-            <element signature="e#10324#10330#0" expanded="true" />
+            <element signature="e#10352#10358#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emotion-matcher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emotion-matcher-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="650" column="23" lean-forward="false" selection-start-line="650" selection-start-column="23" selection-end-line="650" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>

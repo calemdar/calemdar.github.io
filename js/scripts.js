@@ -23,7 +23,6 @@
 
     e.preventDefault();
 
-        var contentNav = nav.offset().top;
         var heading = $(this).attr('href');
         var scrollDistance = $(heading).offset().top;
 
