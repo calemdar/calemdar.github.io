@@ -39,7 +39,7 @@ $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #fffff2;
-$background-alt: #f2f2f5;
+$background-alt: #F6FFEC;
 
 // Define border colors
 $border: #dcd9d9;
@@ -243,6 +243,8 @@ header {
 
 footer {
     padding: 50px 0;
+    background-color: #D3DFF9;
+
 }
 
 .copyright {
@@ -397,7 +399,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #ff5f2e;
+    background: #FF7A4D;
     z-index: 1;
 }
 
@@ -456,15 +458,17 @@ footer {
 
     h2 {
         color: $heading;
-        margin-left: 100px;
+        margin-left: 180px;
     }
+
 
     p {
         color: $text;
-        margin: 0;
+        margin-left: 150px;
     }
 
     a {
+        font-size: 1.5em;
         margin: 0 0 15px 320px;
     }
 }
@@ -676,7 +680,7 @@ footer {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
-        margin: 0 0 15px 120px;
+        margin: 0 0 15px 0px;
     }
 
     p {
