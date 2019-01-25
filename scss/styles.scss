@@ -452,19 +452,25 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding: 40px 15px;
     background: $background;
     border-bottom: 1px solid $border;
 
     h2 {
         color: $heading;
         margin-left: 180px;
+        margin-top: 20px;
+    }
+
+    img {
+        margin-left: -50px;
     }
 
 
     p {
         color: $text;
-        margin-left: 150px;
+        font-size: 1.1em;
+        margin-left: 70px;
     }
 
     a {
@@ -686,11 +692,12 @@ footer {
     p {
         color: $text;
         margin: 0 0 15px 120px;
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 
     a {
         margin: 0 0 15px 120px;
+        font-size: 1.3em;
     }
 }
 
