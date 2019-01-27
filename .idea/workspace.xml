@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c65aa59-7a32-48d6-b5c5-14bb0d3ce421" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/emotion-matcher-info.html" afterPath="$PROJECT_DIR$/emotion-matcher-info.html" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +28,10 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="191" column="53" lean-forward="false" selection-start-line="191" selection-start-column="53" selection-end-line="191" selection-end-column="53" />
+                <state relative-caret-position="538">
+                  <caret line="194" column="62" lean-forward="false" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
                   <folding>
-                    <element signature="e#11248#11254#0" expanded="true" />
+                    <element signature="e#11247#11253#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -387,12 +385,12 @@
       <workItem from="1547826364089" duration="2558000" />
       <workItem from="1548381587486" duration="1452000" />
       <workItem from="1548383047545" duration="913000" />
-      <workItem from="1548618569142" duration="2782000" />
+      <workItem from="1548618569142" duration="2967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35182000" />
+    <option name="totallyTimeSpent" value="35367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="6" />
@@ -526,7 +524,7 @@
         <state relative-caret-position="3645">
           <caret line="243" column="71" lean-forward="false" selection-start-line="243" selection-start-column="71" selection-end-line="243" selection-end-column="71" />
           <folding>
-            <element signature="e#11248#11254#0" expanded="true" />
+            <element signature="e#11247#11253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,7 +610,7 @@
         <state relative-caret-position="1275">
           <caret line="85" column="23" lean-forward="false" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding>
-            <element signature="e#11248#11254#0" expanded="true" />
+            <element signature="e#11247#11253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,7 +646,7 @@
         <state relative-caret-position="2415">
           <caret line="161" column="68" lean-forward="true" selection-start-line="161" selection-start-column="68" selection-end-line="161" selection-end-column="68" />
           <folding>
-            <element signature="e#11248#11254#0" expanded="true" />
+            <element signature="e#11247#11253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -790,10 +788,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="191" column="53" lean-forward="false" selection-start-line="191" selection-start-column="53" selection-end-line="191" selection-end-column="53" />
+        <state relative-caret-position="538">
+          <caret line="194" column="62" lean-forward="false" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
           <folding>
-            <element signature="e#11248#11254#0" expanded="true" />
+            <element signature="e#11247#11253#0" expanded="true" />
           </folding>
         </state>
       </provider>
