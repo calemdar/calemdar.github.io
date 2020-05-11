@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -39,38 +39,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Blue Thief</h2>
-                    <br>
-                    <img src="images/blue-thief2-small.jpg" />
+                    <h2 class="heading">Stick It!</h2>
+                    <img src="../images/stick-it-image.png" />
 
                 </div>
                 <div class="col-md-8">
                     <p>
-                        This is a puzzle game that takes place in an art museum. The player can walk around and look
-                        at the paintings on the walls and read information about them. The player has to collect cues
-                        and find the code to open the door. But be careful of the security cameras! This was made with
-                        Game Maker and developped by me, Myles Karam, Peter Nolan, and Kit Campolieta.
+                        This game uses a JS based web engine called Perlenspiel. The engine utilizes a game grid of size up to 32x32 squares.
+                        Each square is a bead object that can do many things. Stick It! utilizes a hub world to diminish linearity,
+                        provide an environment to test game mechanics, and encourage replayability. The game was designed around two core mechanics:
+                        Leaving a mark and sticking. These two mechanics gave us ideas of different ways to get from point A to point B; in this case
+                        the starting position and the end goal.
                     </p>
                     <p>
-                        I was in charge of the level design, shadowing, and interaction with the environment. I designed
-                        the levels by looking at floor maps of big art museums like the Metropolitan Art Museum, or the
-                        Louvre. My focus was to have a lot of wall surface area so that more paintings could be placed,
-                        while having large rectangle rooms to have many masterpeices in one room. I also had to make long
-                        and narrow corridors to trap player when the alarm goes off.
-
+                        The game has ten different levels, and a hub world to navigate to the levels. The source code of the game
+                        can be found in the Github link below. All of the code is written by me in two weeks. We user tested the game with
+                        thirty different players, gathered feedback, and polished. Older versions of the game can be found on the same website.
                     </p>
-                    <p>
-                        The shadowing could be done better but I wanted to capture the 8-bit theme. So I made every floor
-                           tile constantly check the player's position to decide if it should be shadowed or not. This took
-                        me around ten hours of creating 4x4 pixel size game objects and placing them as the floor.
-                    </p>
-                    <p>
-                        When the player presses space while close to a painting; an 8-bit image of the original painting
-                        pops up, and a scrolling text gives information about the painting. This feels just like looking
-                        at a painting and reading the prompt next to it in an art museum. Even though all the artworks
-                        are in 8-bit it is very easy to distinguish the subject because of the wide veriety of colors.
-                    </p>
-                    <a href="index.html">Back to portfolio</a>
+                    <a href="https://team-tree.github.io/stick_it4.0/game.html" target="_blank">Play Game</a>
+                    <br>
+                    <a href="https://team-tree.github.io/" target="_blank">Older Versions</a>
+                    <br>
+                    <a href="../index.html">Back to portfolio</a>
                 </div>
             </div>
         </div>
@@ -118,7 +108,7 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="../js/scripts.min.js"></script>
 </body>
 
 </html>
