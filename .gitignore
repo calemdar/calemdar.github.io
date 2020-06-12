@@ -1,6 +1,4 @@
 # Node dependencies
 node_modules/
 
-# IntelliJ
-.idea
-.idea/workspace.xml
+.vcode/
