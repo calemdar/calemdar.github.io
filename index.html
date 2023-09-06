@@ -1,321 +1,359 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cem Alemdar</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Cem Alemdar | Developer, Designer</title>
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[cemalemdar], [cem], game development, portfolio, game design, design, designer, technical, technical designer, developer, development" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Cem Alemdar] | Developer | Designer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://calemdar.github.io/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Cem Alemdar] | Developer | Designer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Cem Alemdar's digiital portfolio" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/husky.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://calemdar.github.io/" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Cem Alemdar] | Developer | Designer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Cem Alemdar's digiital portfolio"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://calemdar.github.io/assets/husky.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          <span class="text-color-main name">Cem Alemdar's </span>
+          <br />
+          Portfolio
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#projects">See Projects</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <!-- Put your face here-->
+            <img
+              class="img-fluid"
+              src="./assets/ProfilePhoto.jpg"
+              alt="Profile Image"
+
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am a designer with a background in programming. I enjoy designing unique experiences, building worlds, 
+              collaborating with passionate people, creative problem solving, learning and progressing. I am passionate 
+              about making and games and learning about the power of the play experience. I love to design systems, 
+              interactions, experiences, encounters, puzzles, and tools.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am most comfortable with C++ and C# for programming, Unity and Unreal for game making. I write design 
+              documents and make sketches to express my ideas. I have experience working with people from many different 
+              cultures and nationalities. I value communication
+               above all, and work to solve problems as best I can.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="./assets/CemAlemdarResume2023.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <br />
-            <li>
-                <a href="#projects">My Works</a>
-            </li>
-            <br />
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
+      </div>
+    </section>
+    <!-- /END About Section -->
 
-        </ul>
-    </header>
-    <!-- End header -->
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Cem Alemdar</h1>
-            <h2>Game Designer, Software Engineer</h2>
-            <!--<a href="#" class="btn-rounded-white">Download Resume</a>-->
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <!--<div id="lead-down">-->
-        <!--<span>-->
-        <!--<i class="fa fa-chevron-down" aria-hidden="true"></i>-->
-        <!--</span>-->
-        <!--</div>-->
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Unity</li>
-            <li>Unreal Engine</li>
-            <li>C#</li>
-            <li>C++ / C</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>WebGL</li>
-            <li>GLSL</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>VR/AR</li>
-            <li>Audio</li>
-            <li>Maya</li>
-            <li>Leadership</li>
-            <li>Motion Capture</li>
-            <li>Procedural Generation</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="projects">
-        <h2 class="heading"><strong>Projects</strong></h2>
-        <div class="container">
-            <div class="row">
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/tm-title.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="pages/tune-mountain.html">Tune Mountain</a></h3>
-                        <p>
-                            An audiovisual snowboarding game where the music drives the level. Pick your music and
-                            slide down your Tune Mountain.
-                        </p>
-                        <a href="https://www.tune-mountain.com" target="_blank">Play Game</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/rhythm-of-the-night.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="pages/rhythm-of-the-night.html">Rhythm of The Night</a></h3>
-                        <p>
-                            A rhythm based hack and slash game made with Unreal Engine
-                        </p>
-                        <a href="https://2-4.netlify.app/" target="_blank">Go to project page</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/blue-thief1_small.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="pages/blue-thief.html">Blue Thief</a></h3>
-                        <p>
-                            You are a skilled art thief trying to snatch the Blue Diamond, which is worth over twenty
-                            million dollars. Explore the museum and try to figure out the code to open doors by solving
-                            riddles and puzzles.
-                        </p>
-                        <a href="https://cemalemdar.itch.io/blue-thief" , target="_blank">Get Game</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/stick-it-cover.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="pages/stick-it.html">Stick it!</a></h3>
-                        <p>
-                            A browser based puzzle game about leaving a mark in history, and utilizing the marks to get
-                            to the goal. I wrote all of the code for this project, and had the help of an artist for
-                            design and art assets.
-                        </p>
-                        <a href="https://team-tree.github.io/stick_it4.0/game.html" target="_blank">Play Game</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/cemgraphics.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="https://cemgraphics.github.io/">Graphical Simulations</a></h3>
-                        <p>
-                            Simulations made using GLSL and HLSL. Some of the projects may require a smaller window size
-                            to work better.
-                        </p>
-                        <a href="https://cemgraphics.github.io/simulation/index.html" target="_blank">See one of my
-                            shader projects</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/hci.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="pages/hci.html">Human-Computer Interaction</a></h3>
-                        <p>
-                            In this class we were creating software prototypes in sprints. Later we user tested the
-                            prototypes in class, and gathered feedback. In eight weeks I had to come
-                            up with five different projects in five different teams.
-                        </p>
-                        <a href="https://medium.com/@cemalemdar98/design-manifesto-9c9d10580cf5" target="_blank">Design
-                            Manifesto</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/cat-vr1_small.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3><a href="pages/cat-piano-vr.html">Cat Piano VR</a></h3>
-                        <p>
-                            This is my first VR game/toy. While working at an AR/VR company I created a testable
-                            prototype
-                            around an odd psychological phenomena I leaned about. Here, my main goal was to create
-                            a prototype and put it in an Oculus Quest to demo it for an event. The results
-                            were shockingly positive.
-                        </p>
-                        <a href="pages/cat-piano-vr.html">Read More</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Fill the Fridge!</h3>
+              <p class="project-wrapper__text-info">
+                Worked as a level designer on a mobile hyper-casual game which has +100M downloads. 
+                Made levels and content for the game. Also edited the game to make engaging
+                ad videos using Unity. 
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://apps.apple.com/us/app/fill-the-fridge/id1605936806"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Project</a>
+              </div>
             </div>
-        </div>
-    </div>
-    <!-- End #projects -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+            <div class="project-wrapper__image">
+              <a 
+              href="https://apps.apple.com/us/app/fill-the-fridge/id1605936806"
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/FillTheFridgeAppStore.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="100"
+                    height="100"
+                  />
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        As a traveler, I have always been amazed by how people can experience life differently in
-                        different cultures
-                        and under different conditions. I was born in Istanbul, Turkey and lived there until I started
-                        university at
-                        Worcester Polytechnic Institute; here I earned two bachelor’s degrees in Computer Science and
-                        Interactive
-                        Media and Game Development. My passion for games stemmed from watching my older brother play
-                        video games.
-                        My constant observation of what was going on in the game without actually having to think about
-                        what buttons
-                        to press gave me a whole new perspective of games and an understanding that everything on the
-                        screen has to
-                        serve a purpose. Seeing every little movement, every interaction, and every minuscule animation
-                        left me in
-                        awe of design and the ideas that went into creating an entirely new experience in a new form. I
-                        realized that
-                        I could design experiences to express an idea, or create a new immersive world that people could
-                        get lost in
-                        and live in; even if it doesn't actually physically exist. I could create a way to travel and
-                        escape with your
-                        mind through games, and as a traveler myself I know there are no experiences that can match
-                        those you get while
-                        traveling; and with games there is no limit to where you can go.
-                    </p>
-                    <button onclick="window.open('CemAlemdar2020-resume.pdf', '_blank');">View Resume</button>
-                    <br>
-                    <button onclick="window.open('https://github.com/calemdar', '_blank');">See Github Page</button>
-                </div>
+              </a>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
+          </article>
+          <!-- /END Project -->
 
-    <!--<div id="contact">-->
-    <!--<h2>Get in Touch</h2>-->
-    <!--<div id="contact-form">-->
-    <!--<form method="POST" action="https://formspree.io/email@email.com">-->
-    <!--<input type="hidden" name="_subject" value="Contact request from personal website" />-->
-    <!--<input type="email" name="_replyto" placeholder="Your email" required>-->
-    <!--<textarea name="message" placeholder="Your message" required></textarea>-->
-    <!--<button type="submit">Send</button>-->
-    <!--</form>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; End #contact-form &ndash;&gt;-->
-    <!--</div>-->
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 CEM ALEMDAR
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/calemdar" target="_blank"><i class="fa fa-github fa-2x"
-                                    aria-hidden="true"></i></a>
-                        </li>
-                        <!--<li>-->
-                        <!--<a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>-->
-                        <!--</li>-->
-                        <li>
-                            <a href="https://www.linkedin.com/in/cem-alemdar-319b9a149/" target="_blank"><i
-                                    class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                        </li>
-                        <!--<li>-->
-                        <!--<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                        <!--<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>-->
-                        <!--</li>-->
-                    </ul>
-                </div>
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Drift Max Pro</h3>
+              <p class="project-wrapper__text-info">
+                Worked as a gameplay engineer on a mobile drifting game which has 
+                +120M downloads. Created a car decal editor that lets the player place
+                many decals of the car using different textures, allowing them to move, rotate, 
+                and scale with ease. Wrote a custon shader in order to apply many textures on one 
+                car with no performance loss.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.tiramisu.game/drift-max-pro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Project</a>
+              </div>
             </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://www.tiramisu.game/drift-max-pro" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/DriftMaxProDecal.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Easy Money 3D!</h3>
+              <p class="project-wrapper__text-info">
+                Worked as a game designer on a mobile idle game which has +100K downloads.
+                Created and extensively tested the economy of the game about minting money.
+                Set up a spreadsheet to scale the economy to earn untangible amounts of money, 
+                in order to fulfil a rich power fantasy.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://apps.apple.com/us/app/easy-money-3d/id1662352698"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Project</a>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a 
+              href="https://apps.apple.com/us/app/easy-money-3d/id1662352698" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/EasyMoneyAppStore.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
         </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Reach out to me via</p>
+          <a 
+          href="https://www.linkedin.com/in/cem-alemdar-319b9a149/" 
+          class="cta-btn cta-btn--resume"
+          >LinkedIn</a>
+          <a 
+          href="mailto:cemalemdar98@gmail.com?subject=Interested in working together" 
+          class="cta-btn cta-btn--resume"
+          >Email</a>
+          <p>cemalemdar98@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!--
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          -->
+          <a
+            href="https://www.linkedin.com/in/cem-alemdar-319b9a149/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/calemdar?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span>
+        </p>
+      </div>
     </footer>
-    <!-- End footer -->
+    <!-- END Footer Section -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
-
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
 </html>
